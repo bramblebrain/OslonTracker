@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "ecaeeacf55f99d8f",
+    "type": "split",
+    "children": [
+      {
+        "id": "e850a6128e9f5bcc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebcc517a5139b3b4",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Dashboard.canvas",
+                "viewState": {
+                  "x": 100,
+                  "y": -140,
+                  "zoom": 0
+                }
+              }
+            }
+          }
+        ],
+        "stacked": true
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a1715e69fac68880",
+    "type": "split",
+    "children": [
+      {
+        "id": "711d1046caaec9dd",
+        "type": "tabs",
+        "dimension": 14.367816091954023,
+        "children": [
+          {
+            "id": "da8e673a9a6fea16",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3a193c290ecac551",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "f116beb83aa48575",
+        "type": "tabs",
+        "dimension": 85.63218390804597,
+        "children": [
+          {
+            "id": "8bad51639eb4f67a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ec77814f2da9fdfb",
+    "type": "split",
+    "children": [
+      {
+        "id": "c049ffab35aa2ee3",
+        "type": "tabs",
+        "dimension": 73.27586206896552,
+        "children": [
+          {
+            "id": "769a58bc5942c6d8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Dashboard.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "022fa575edc6ff15",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Dashboard.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f3ed2b81c1fa817",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "002872558f7622dc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Dashboard.canvas"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "b0a9c1753ae5170c",
+        "type": "tabs",
+        "dimension": 26.724137931034484,
+        "children": [
+          {
+            "id": "422c64a1e6a0882f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "ebcc517a5139b3b4",
+  "lastOpenFiles": [
+    "Journal/2024-03-03.md",
+    "Dashboard.canvas",
+    "Goals/Learn Docker.md",
+    "Goals/Daily Blogpost.md",
+    "Journal/2024-03-04.md",
+    "Journal/2024-03-10.md",
+    "Goals/Learn Linux.md",
+    "Journal/2024-03-09.md",
+    "Goals/Learn Hugo.md",
+    "Journal/2024-03-07.md",
+    "Journal/2024-03-06.md",
+    "Goals/Learn Kubernetes.md",
+    "Journal/2024-03-08.md",
+    "Goal Overview.md",
+    "Templates/new Daily Journal.md",
+    "Journal/2024-03-05.md",
+    "Goals",
+    "Templates",
+    "Welcome.md",
+    "Journal"
+  ]
+}

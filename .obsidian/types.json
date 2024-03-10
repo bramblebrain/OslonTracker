@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "Deliberate_practice": "checkbox",
+    "Time_studied": "number",
+    "Write_blogpost": "checkbox",
+    "Learn_Hugo": "checkbox",
+    "Learn_Docker": "checkbox",
+    "Learn_Kubernetes": "checkbox",
+    "Learn_Linux": "checkbox"
+  }
+}

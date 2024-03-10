@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"5cf134fbdc79540e","type":"text","text":"```tracker\nsearchType: frontmatter\nsearchTarget: Learn_Linux, Learn_Docker, Learn_Kubernetes, Learn_Hugo\ndatasetName: Linux, Docker, Kubernetes, Hugo\nfolder: Journal\nmonth:\n\tmode: annotation\n    startWeekOn: 'Sun'\n    threshold: 0, 0, 0, 0\n    dimNotInMonth: false\n    circleColorByValue: true\n    annotation: L, D, K, H\n\tshowAnnotationOfAllTargets: true\n```","x":-700,"y":-480,"width":440,"height":440},
+		{"id":"7e775228e94e3d44","type":"text","text":"# 📅 Goal Consistency","x":-700,"y":-560,"width":440,"height":60},
+		{"id":"93c80908bb21fc2a","type":"text","text":"---\ncssclasses: cards\n---\n```dataview \nTABLE\n\t\"**WHAT** \" + description,\n\t\"**WHY** \" + why\nFROM \"Goals\"\nWHERE Description != null\n```","x":-220,"y":-480,"width":800,"height":440},
+		{"id":"c399e26b9a666742","type":"text","text":"# 🎯 Current Goals","x":-220,"y":-560,"width":800,"height":60},
+		{"id":"f537d4a1382e7ab1","type":"text","text":"![[Learn Kubernetes#^ezwwcb]]","x":620,"y":-280,"width":280,"height":160},
+		{"id":"2632d3be70412cbb","type":"text","text":"![[Learn Hugo#^z7li9t]]","x":620,"y":-80,"width":280,"height":160},
+		{"id":"d46a5dcde039ac3c","type":"text","text":"# 🔨 Goal Progress","x":620,"y":-560,"width":280,"height":60},
+		{"id":"066739890011a0eb","type":"text","text":"![[Learn Linux#^mw6rov]]","x":620,"y":-480,"width":280,"height":160},
+		{"id":"88adf19710f47d46","type":"text","text":"![[Learn Docker#^lu2jyk]]","x":620,"y":120,"width":280,"height":160},
+		{"id":"743b7a5be49c0ea8","type":"text","text":"# 📓 Recent Journal Entries\n```dataview\nTABLE\nchoice(contains(Learn_Linux, true), \"✔️\", \"❌\") as L, \nchoice(contains(Learn_Docker, true), \"✔️\", \"❌\") as D,  \nchoice(contains(Learn_Kubernetes, true), \"✔️\", \"❌\") as K,  \nchoice(contains(Learn_Hugo, true), \"✔️\", \"❌\") as H,  \nchoice(contains(Daily_Blogpost, true), \"✔️\", \"❌\") as ✍️\nFROM \"Journal\"\nSORT file.name DESC\nLIMIT 5\n```","x":-220,"y":-20,"width":800,"height":300},
+		{"id":"6bad4209a0aeaea1","type":"text","text":"# ☑️ Current Tasks\n```dataview\nTASK\nWHERE !completed AND due < date(today) + dur(\"4 days\") AND due != null\nSORT created ASC\nLIMIT 5\nGROUP BY file.link\nSORT rows.file.ctime ASC\n```\n","x":-700,"y":-20,"width":440,"height":300}
+	],
+	"edges":[]
+}
